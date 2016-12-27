@@ -25,3 +25,6 @@ group :development do
   gem 'pry-rails'
   gem 'pry'
 end
+
+gem 'carrierwave'
+gem 'rmagick'
