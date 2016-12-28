@@ -1,15 +1,2 @@
 
-<%= image_tag(@ph.try(:id)) %>
-
-<p>helloq wolrd</p>
-<%= form_for(@photo) do |f| %>
-
-　　<%= f.label :image %>
-　　<%= f.file_field :image %> （画像用に追加したカラムの名前）
-<%= f.submit "あっぷろーど" %>
-<% end %>
-
-<% @photos.each do |photo| %>
-
-  <%= image_tag photo.image.url %>
-<% end%>
+<%= image_tag(@ph.path) %>
