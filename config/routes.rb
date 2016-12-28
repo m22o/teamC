@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   get 'user/login'
   post 'user/login_check'
   get '/' => 'home#index'
- resources :photos,only: [:create]
   # get 'home/top'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
