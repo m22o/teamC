@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20161227175924) do
     t.string   "path",       limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "image"
   end
 
   create_table "users", force: :cascade do |t|
@@ -25,5 +26,4 @@ ActiveRecord::Schema.define(version: 20161227175924) do
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
   end
-
 end
