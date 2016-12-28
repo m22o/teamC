@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'user/login'
+
   get '/' => 'home#index'
   # get 'home/top'
   # The priority is based upon order of creation: first created -> highest priority.
