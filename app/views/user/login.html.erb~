@@ -1,7 +1,7 @@
 <h1>User#login</h1>
 <p>Find me in app/views/user/login.html.erb</p>
 
-<%= form_tag('/user/login_check') do %>
+<%= form_tag('/user/login_check' method: "post") do %>
 	<%= label_tag 'userid' %>
 	<%= text_field_tag 'userid'%>
 	<%= label_tag 'password' %>
